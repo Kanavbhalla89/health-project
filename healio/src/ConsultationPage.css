@@ -1,0 +1,177 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Main Content */
+  .content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+  }
+  
+  .doctor-details {
+    flex: 2;
+  }
+  
+  .doctor-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-header {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .doctor-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .doctor-info h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #007BFF;
+  }
+  
+  .consultation-fee {
+    color: #007BFF;
+    font-size: 16px;
+  }
+  
+  .book-appointment-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .doctor-rating {
+    margin-top: 15px;
+  }
+  
+  .rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .appointment-slots .tabs {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .slots {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .time-slot {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Right Section */
+  .location-section {
+    flex: 1;
+  }
+  
+  .location-card,
+  .offer-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .location-btn {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .current-location-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .limited-offer-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  

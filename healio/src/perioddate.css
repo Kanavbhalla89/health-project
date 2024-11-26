@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaf5ff; /* Light blue background */
+}
+
+html, body {
+  height: 100%;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full screen height */
+  align-items: center;
+  background-color: #eaf5ff; /* Light blue background */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #eaf5ff; /* Light blue background */
+  width: 100%; /* Full width */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+
+nav button, .login button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover, .login button:hover {
+  background-color: #0056b3;
+}
+
+/* BMI Calculator */
+.bmi-calculator {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width */
+  max-width: 800px; /* Restrict width to max 800px */
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  color: #004085;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #004085;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Form Section */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #040303;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #d2cdcd;
+  color: #040303;
+}
+
+.height-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reset-btn, .calculate-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background-color: #20c997;
+  color: white;
+}
+
+.calculate-btn {
+  background-color: #004085;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #17a589;
+}
+
+.calculate-btn:hover {
+  background-color: #003366;
+}
+
+/* Gender Buttons */
+.gender-options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gender-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #d2cdcd;
+  color: #040303;
+  border: 1px solid #ced4da;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.gender-btn.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Description Section */
+.description {
+  margin-top: 20px;
+}
+
+.description h2 {
+  color: #004085;
+  border-bottom: 2px solid #004085;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.description p {
+  line-height: 1.6;
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #007BFF;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1rem;
+}
+
+.footer .footer-links a {
+  color: #a6d6f8;
+  text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure footer stays at bottom */
+.search-and-categories-container {
+  flex-grow: 1; /* Take up remaining space */
+}
+
+/* Ensuring the footer is always at the bottom */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the height covers the full screen */
+  align-items: center;
+  justify-content: space-between; /* Space between header, content, and footer */
+}

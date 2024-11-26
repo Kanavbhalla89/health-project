@@ -1,0 +1,179 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .homepage {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    background-color: #eaf5ff; /* Light blue background for the entire screen */
+  }
+  
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #eaf5ff; /* Light blue background for the entire screen */
+
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #eaf5ff; /* Light blue background for the entire screen */
+
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  nav a,
+  nav button {
+    text-decoration: none;
+    color: #333;
+    padding: 10px ;
+    border-radius: 5px;
+  }
+  nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  nav a:hover{
+    color: #0056b3;
+  }
+  nav button {
+    background-color: #007BFF;
+    color: white;
+  }
+
+  .login button{
+    background-color: #007BFF;
+    color: white;
+  }
+  .login button:hover {
+    background-color: #0056b3;
+
+  }
+  
+  .find-by-specialization {
+    padding: 40px;
+  }
+  
+  .find-specialisation-title {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .specializations-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Space between the boxes */
+    max-width: 1000px; /* Constrain the grid width */
+    margin: 0 auto; /* Center the grid */
+  }
+  
+  .specialization-button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Fixed height to ensure all boxes are the same size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .specialization-button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .specialization-button img {
+    max-width: 80%;
+    max-height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .specialization-button p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .view-all button {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; /* Remove border */
+    max-width: 100px;
+    margin: 20px;
+  }
+  
+  .view-all button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  /* Footer Section */
+.footer {
+  background-color: #007BFF;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1rem;
+}
+
+.footer .footer-links a {
+  color: #a6d6f8;
+  text-decoration: none;
+}
+
+.footer a{
+  color: #a6d6f8;
+}
+.footer a:hover{
+  text-decoration: underline;
+
+}
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles to ensure the footer is always at the bottom */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full screen height */
+}
+
+.search-and-categories-container {
+  flex-grow: 1; /* Take up remaining space */
+}
